@@ -68,8 +68,8 @@
     },
     {
       "name": "avversari",
-      "label": "Nemici",
-      "path": "packs/nemici.db",
+      "label": "Avversari",
+      "path": "packs/avversari.db",
       "type": "Actor",
       "entity": "Actor",
       "system": "tor2e",
