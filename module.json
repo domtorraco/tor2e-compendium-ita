@@ -1,0 +1,128 @@
+{
+  "id": "tor2e",
+  "title": "Tor 2e Compendium ITA",
+  "version": "0.1",
+  "authors": [
+    {
+      "name": "Balian",
+      "flags": {}
+    }
+  ],
+  "compatibility": {
+    "minimum": "10",
+    "maximum": "10",
+    "verified": "10.290"
+  },
+  "styles": [
+    "css/styles.css"
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "tor2e",
+        "type": "system",
+        "manifest": "https://gitlab.com/herve.darritchon/foundryvtt-tor2e/-/raw/main/src/system.json",
+        "compatibility": {
+          "minimum": "2.0.0",
+          "verified": "2.0.5"
+        }
+      }
+    ]
+  },
+  "packs": [
+    {
+      "name": "armi",
+      "label": "Armi",
+      "path": "packs/armi.db",
+      "type": "Item",
+      "private": false,
+      "system": "tor2e",
+      "flags": {}
+    },
+    {
+      "name": "armature",
+      "label": "Armature",
+      "path": "packs/armature.db",
+      "type": "Item",
+      "private": false,
+      "system": "tor2e",
+      "flags": {}
+    },
+    {
+      "name": "capacità-funeste",
+      "label": "Capacità Funeste",
+      "path": "packs/capacita-funeste.db",
+      "type": "Item",
+      "private": false,
+      "system": "tor2e",
+      "flags": {}
+    },
+    {
+      "name": "caratteristiche",
+      "label": "Caratteristiche",
+      "path": "packs/caratteristiche.db",
+      "type": "Item",
+      "private": false,
+      "system": "tor2e",
+      "flags": {}
+    },
+    {
+      "name": "macro-varie",
+      "label": "Macro Varie",
+      "path": "packs/macro-varie.db",
+      "type": "Macro",
+      "private": false,
+      "system": "tor2e",
+      "flags": {}
+    },
+    {
+      "name": "mappe-eriador",
+      "label": "Mappe Eriador",
+      "path": "packs/mappe-eriador.db",
+      "type": "Scene",
+      "private": false,
+      "system": "tor2e",
+      "flags": {}
+    },
+    {
+      "name": "nemici",
+      "label": "Nemici",
+      "path": "packs/nemici.db",
+      "type": "Actor",
+      "private": false,
+      "system": "tor2e",
+      "flags": {}
+    },
+    {
+      "name": "patroni",
+      "label": "Patroni",
+      "path": "packs/patroni.db",
+      "type": "Actor",
+      "private": false,
+      "system": "tor2e",
+      "flags": {}
+    },
+    {
+      "name": "personaggi-cavallino-rampante",
+      "label": "Personaggi al Cavallino Rampante (HB)",
+      "path": "packs/personaggi-cavallino-rampante.db",
+      "type": "JournalEntry",
+      "private": false,
+      "system": "tor2e",
+      "flags": {}
+    },
+    {
+      "name": "tabelle-incontri",
+      "label": "Tabelle degli Incontri",
+      "path": "packs/tabelle-incontri.db",
+      "type": "RollTable",
+      "private": false,
+      "system": "tor2e",
+      "flags": {}
+    }
+  ],
+  "url": "https://github.com/domtorraco/tor2edIta",
+  "manifest": "https://github.com/domtorraco/tor2edIta/releases/latest/download/module.json",
+  "download": "https://github.com/domtorraco/tor2edIta/releases/latest/download/module.zip",
+  "description": "Questo modulo aggiunge un compendio in Italiano per il GDR di Unico Anello Seconda Edizione, grazie al contributo di Archer39"
+}
