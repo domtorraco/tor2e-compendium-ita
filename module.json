@@ -1,17 +1,17 @@
 {
-  "id": "tor2e",
-  "title": "Tor 2e Compendium ITA",
+  "id": "tor2eita",
+  "title": "Tor2e Compendium italiano",
   "version": "0.1",
   "authors": [
     {
       "name": "Balian",
-      "flags": {}
+      "url": "https://github.com/domtorraco/"
     }
   ],
   "compatibility": {
     "minimum": "10",
     "maximum": "10",
-    "verified": "10.290"
+    "verified": "10.291"
   },
   "styles": [
     "css/styles.css"
@@ -24,7 +24,7 @@
         "manifest": "https://gitlab.com/herve.darritchon/foundryvtt-tor2e/-/raw/main/src/system.json",
         "compatibility": {
           "minimum": "2.0.0",
-          "verified": "2.0.5"
+          "verified": "2.0.7"
         }
       }
     ]
@@ -35,94 +35,76 @@
       "label": "Armi",
       "path": "packs/armi.db",
       "type": "Item",
-      "private": false,
+      "entity": "Item",
       "system": "tor2e",
-      "flags": {}
+      "package": "tor2eita"
     },
     {
       "name": "armature",
       "label": "Armature",
       "path": "packs/armature.db",
       "type": "Item",
-      "private": false,
+      "entity": "Item",
       "system": "tor2e",
-      "flags": {}
-    },
-    {
-      "name": "capacità-funeste",
-      "label": "Capacità Funeste",
-      "path": "packs/capacita-funeste.db",
-      "type": "Item",
-      "private": false,
-      "system": "tor2e",
-      "flags": {}
+      "package": "tor2eita"
     },
     {
       "name": "caratteristiche",
       "label": "Caratteristiche",
       "path": "packs/caratteristiche.db",
       "type": "Item",
-      "private": false,
+      "entity": "Item",
       "system": "tor2e",
-      "flags": {}
+      "package": "tor2eita"
     },
     {
-      "name": "macro-varie",
-      "label": "Macro Varie",
-      "path": "packs/macro-varie.db",
-      "type": "Macro",
-      "private": false,
-      "system": "tor2e",
-      "flags": {}
-    },
-    {
-      "name": "mappe-eriador",
-      "label": "Mappe Eriador",
-      "path": "packs/mappe-eriador.db",
+      "name": "mappe-terra-di-mezzo",
+      "label": "Mappe della Terra di Mezzo",
+      "path": "packs/mappe-terra-di-mezzo.db",
       "type": "Scene",
-      "private": false,
+      "entity": "Scene",
       "system": "tor2e",
-      "flags": {}
+      "package": "tor2eita"
     },
     {
-      "name": "nemici",
+      "name": "avversari",
       "label": "Nemici",
       "path": "packs/nemici.db",
       "type": "Actor",
-      "private": false,
+      "entity": "Actor",
       "system": "tor2e",
-      "flags": {}
+      "package": "tor2eita"
     },
     {
       "name": "patroni",
       "label": "Patroni",
       "path": "packs/patroni.db",
       "type": "Actor",
-      "private": false,
+      "entity": "Actor",
       "system": "tor2e",
-      "flags": {}
+      "package": "tor2eita"
     },
     {
-      "name": "personaggi-cavallino-rampante",
-      "label": "Personaggi al Cavallino Rampante (HB)",
-      "path": "packs/personaggi-cavallino-rampante.db",
-      "type": "JournalEntry",
-      "private": false,
+      "name": "npc",
+      "label": "Npc della Terra di Mezzo",
+      "path": "packs/npc.db",
+      "type": "Actor",
+      "entity": "Actor",
       "system": "tor2e",
-      "flags": {}
+      "package": "tor2eita"
     },
     {
       "name": "tabelle-incontri",
       "label": "Tabelle degli Incontri",
       "path": "packs/tabelle-incontri.db",
       "type": "RollTable",
-      "private": false,
+      "entity": "RollTable",
       "system": "tor2e",
-      "flags": {}
+      "package": "tor2eita"
     }
   ],
-  "url": "https://github.com/domtorraco/tor2edIta",
-  "manifest": "https://github.com/domtorraco/tor2edIta/releases/latest/download/module.json",
-  "download": "https://github.com/domtorraco/tor2edIta/releases/latest/download/module.zip",
+  "url": "https://github.com/domtorraco/tor2e-compendium-ita/",
+  "manifest": "https://github.com/domtorraco/tor2e-compendium-ita/releases/latest/download/module.json",
+  "download": "https://github.com/domtorraco/tor2e-compendium-ita/releases/latest/download/module.zip",
   "description": "Questo modulo aggiunge un compendio in Italiano per il GDR di Unico Anello Seconda Edizione, grazie al contributo di Archer39"
 }
