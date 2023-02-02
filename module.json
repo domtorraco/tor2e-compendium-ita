@@ -1,7 +1,7 @@
 {
   "id": "tor2eita",
   "title": "Tor2e Compendium italiano",
-  "version": "0.2",
+  "version": "0.3",
   "authors": [
     {
       "name": "Balian",
@@ -43,6 +43,15 @@
       "name": "armature",
       "label": "Armature",
       "path": "packs/armature.db",
+      "type": "Item",
+      "entity": "Item",
+      "system": "tor2e",
+      "package": "tor2eita"
+    },
+    {
+      "name": "equipaggiamento-avversari",
+      "label": "Equipaggiamento Avversari",
+      "path": "packs/equipaggiamento-avversari.db",
       "type": "Item",
       "entity": "Item",
       "system": "tor2e",
@@ -99,6 +108,15 @@
       "path": "packs/tabelle-incontri.db",
       "type": "RollTable",
       "entity": "RollTable",
+      "system": "tor2e",
+      "package": "tor2eita"
+    },
+    {
+      "name": "macro-wip",
+      "label": "Macro-WIP",
+      "path": "packs/macro-wip.db",
+      "type": "Macro",
+      "entity": "Macro",
       "system": "tor2e",
       "package": "tor2eita"
     }
