@@ -24,7 +24,7 @@
         "manifest": "https://gitlab.com/herve.darritchon/foundryvtt-tor2e/-/raw/main/src/system.json",
         "compatibility": {
           "minimum": "2.0.0",
-          "verified": "2.0.7"
+          "verified": "2.1.0"
         }
       }
     ]
@@ -43,6 +43,15 @@
       "name": "armature",
       "label": "Armature",
       "path": "packs/armature.db",
+      "type": "Item",
+      "entity": "Item",
+      "system": "tor2e",
+      "package": "tor2eita"
+    },
+    {
+      "name": "capacita-funeste",
+      "label": "Capacità Funeste",
+      "path": "packs/capacita-funeste.db",
       "type": "Item",
       "entity": "Item",
       "system": "tor2e",
