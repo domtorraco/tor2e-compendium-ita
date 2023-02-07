@@ -1,7 +1,7 @@
 {
   "id": "tor2eita",
   "title": "Tor2e Compendium italiano",
-  "version": "0.7",
+  "version": "0.8",
   "authors": [
     {
       "name": "Balian",
@@ -43,6 +43,15 @@
       "name": "armature",
       "label": "Armature",
       "path": "packs/armature.db",
+      "type": "Item",
+      "entity": "Item",
+      "system": "tor2e",
+      "package": "tor2eita"
+    },
+    {
+      "name": "abilita",
+      "label": "Abilità",
+      "path": "packs/abilita.db",
       "type": "Item",
       "entity": "Item",
       "system": "tor2e",
